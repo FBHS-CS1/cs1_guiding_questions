@@ -88,7 +88,9 @@
 
 <details><summary>So, what do you do?</summary>
 
-> Create a local variable called `centerOfCell` and assign its value using the hint.
+> Create a local variable called `centerXOfCell` and assign its value using the hint.
+
+> Create another local variable called `centerYOfCell` and assign its value using the hint (what will be different?)
 </details>
 </details>
 </details>
@@ -102,7 +104,7 @@
 <details><summary>What should you use for each?</summary>
 
 > Use an empty string for the text `''`
-> Use `centerOfCell` for both `centerX` and `centerY`
+> Use `centerXOfCell` for `centerX` and `centerYOfCell` for `centerY`
 </details>
 </details>
 </details>
