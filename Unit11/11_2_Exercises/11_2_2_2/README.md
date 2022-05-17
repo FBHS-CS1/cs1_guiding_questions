@@ -135,3 +135,53 @@
 > It is the label that you created in the previous step.  Add it to the group `board` using `board.add()`
 </details>
 </details>
+
+---
+
+![part2](./img02.png)
+
+## Review all of the code before proceeding
+
+<details><summary>Start a new game or restart the game.</summary>
+
+> This is just describing *what* this function needs to do, not *how* to do it.
+</details>
+
+<details><summary>When space is pressed and the game is not already playing,</summary>
+
+<details><summary>How do we check for when things are happening?</summary>
+
+> Using an `if` statement
+
+<details><summary>If what?</summary>
+
+> space is pressed
+
+<details><summary>and what else?</summary>
+
+> and game is not already playing
+
+<details><summary>How do we check for if the game is not already playing?</summary>
+
+> There is a variable created at the end of `initializeGame` called `app.isGamePlaying`.  If it is `False`, the game is not playing.
+</details>
+</details>
+</details>
+</details>
+</details>
+
+<details><summary>make the newGameScreen invisible</summary>
+
+<details><summary>How do you do that?</summary>
+
+> Set the `visible` property of `newGameScreen` to `False`
+</details>
+</details>
+
+<details><summary>and set isGamePlaying.</summary>
+
+<details><summary>Set it to what?</summary>
+
+> Well, since the game is now playing, `app.isGamePlaying` should be set to `True`.
+</details>
+</details>
