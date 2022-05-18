@@ -20,7 +20,7 @@
 > The parameter `board` must be a 2D list of **Labels**.  We can use a for loop:
 
     for row in range(len(board)):
-        colList.append(board[row][col].value)
+        colList.append(board[row][col])
 
 </details>
 </details>
@@ -47,7 +47,7 @@
 
 <details><summary>How could you do that?</summary>
 
-> Use a for loop going through each item in `colRowOrDiag` and if it is the same as `app.player` add one to `count`
+> Use a for loop going through each item in `colRowOrDiag` and if it is the same `value` as `app.player` add one to `count`
 
 <details><summary>What do you do with that?</summary>
 
