@@ -43,6 +43,16 @@
 
 <details><summary>What is the purpose of the count variable?</summary>
 
-> While it is initially unclear, we can use it to determine 
+> While it is initially unclear, we can use it to determine how many of the items in `colRowOrDiag` are the same as `app.player`
+
+<details><summary>How could you do that?</summary>
+
+> Use a for loop going through each item in `colRowOrDiag` and if it is the same as `app.player` add one to `count`
+
+<details><summary>What do you do with that?</summary>
+
+> After the loop finishes, if `count` is 3, then all 3 values in `colRowOrDiag` must have been the same as `app.player`, so return `True`.  If `count` isn't 3, then at least one of the values must not have been the same, so return `False`
+</details>
+</details>
 </details>
 </details>
